@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.musicbuttons.MusicScreen"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/B1"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Button01"
+                android:onClick="b1" />
+
+            <Button
+                android:id="@+id/B2"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button02"
+                android:onClick="b2" />
+
+            <Button
+                android:id="@+id/B3"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button03"
+                android:onClick="b3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/B4"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Button04"
+                android:onClick="b4" />
+
+            <Button
+                android:id="@+id/B5"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button05"
+                android:onClick="b5" />
+
+            <Button
+                android:id="@+id/B6"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button06"
+                android:onClick="b6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/B7"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Button07"
+                android:onClick="b7" />
+
+            <Button
+                android:id="@+id/B8"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button08"
+                android:onClick="b8" />
+
+            <Button
+                android:id="@+id/B9"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button09"
+                android:onClick="b9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/B10"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Button10"
+                android:onClick="b10" />
+            
+
+            <Button
+                android:id="@+id/B11"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button11"
+                android:onClick="b11" />
+
+            <Button
+                android:id="@+id/B12"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button12"
+                android:onClick="b12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/B13"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Button13"
+                android:onClick="b13" />
+
+            <Button
+                android:id="@+id/B14"
+				android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button14"
+                android:onClick="b14" />
+
+            <Button
+                android:id="@+id/B15"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button15" 
+                android:onClick="b15"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/B16"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Button16"
+                android:onClick="b16" />
+
+            <Button
+                android:id="@+id/B17"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button17" 
+                android:onClick="b17"/>
+
+            <Button
+                android:id="@+id/B18"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="Button18"
+                android:onClick="b18" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/stopButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Stop"
+                android:onClick="stopButton" />
+
+            <Button
+                android:id="@+id/stopAllButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop All"
+                android:onClick="stopAllButton" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:onClick="backButton" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
