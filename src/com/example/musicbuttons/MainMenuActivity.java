@@ -14,7 +14,9 @@ public class MainMenuActivity extends Activity {
 		setContentView(R.layout.activity_main_menu);
 
 	}
-	
+	/**
+	 * creates the menu for this activity
+	 */
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
